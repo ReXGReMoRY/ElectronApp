@@ -1,0 +1,60 @@
+body {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial,
+    sans-serif;
+  margin: auto;
+  max-width: 38rem;
+  padding: 2rem;
+  background-color: #141216;
+}
+
+#mainTitle {
+  color: crimson;
+}
+
+#Username_sesion {
+  text-decoration: none;
+  border: 2px solid black;
+  padding: 5px;
+  font-size: 16px;
+  align-self: center;
+  transition: 0.2s;
+  border-radius: 20px;
+}
+
+#Username_sesion:hover {
+  border-color: crimson;
+  border-width: 3px;
+}
+
+#Username_sesion:focus {
+  border-width: 3px;
+  border-color: crimson;
+  outline: none;
+}
+
+#Password_sesion {
+  text-decoration: none;
+  border: 2px solid black;
+  padding: 5px;
+  font-size: 16px;
+  align-self: center;
+  transition: 0.2s;
+  border-radius: 20px;
+}
+
+#Password_sesion:hover {
+  border-width: 3px;
+  border-color: crimson;
+}
+
+#Password_sesion:focus {
+  border-width: 3px;
+  border-color: crimson;
+  outline: none;
+}
